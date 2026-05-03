@@ -8,10 +8,10 @@ print("2D array using numpy in python:\n",arr2)
 a = arr1.shape
 print(a)
 
-b = arr2.size
+b = arr2.size #tells total number of elements in a array
 print(b)
 
-a1 = arr1.ndim
+a1 = arr1.ndim # it tells us that row or columns in an array
 print(a1)
 
 
