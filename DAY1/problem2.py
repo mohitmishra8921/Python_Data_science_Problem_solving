@@ -11,4 +11,7 @@ print(a)
 b = arr2.size
 print(b)
 
+a1 = arr1.ndim
+print(a1)
+
 
