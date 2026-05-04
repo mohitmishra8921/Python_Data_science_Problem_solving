@@ -14,7 +14,12 @@ print(b)
 a1 = arr1.ndim # it tells us that row or columns in an array
 print(a1)
 
-a2 = arr1.dtype 
+a2 = arr1.dtype  
 print(a2)
+a3 = arr1.astype("int32")
+print(a3)
+a4 = arr1.dtype
+print(a4)
+
 
 
