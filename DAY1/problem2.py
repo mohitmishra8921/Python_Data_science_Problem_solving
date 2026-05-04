@@ -14,4 +14,7 @@ print(b)
 a1 = arr1.ndim # it tells us that row or columns in an array
 print(a1)
 
+a2 = arr1.dtype 
+print(a2)
+
 
