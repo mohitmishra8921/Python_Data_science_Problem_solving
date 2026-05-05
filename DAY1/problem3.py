@@ -6,4 +6,9 @@ df = {"Name":["Aman","Riya","Karan","Sneha"],
       } 
 a = pd.DataFrame(df)
 print(a)
-         
+
+#Using EDA processes to check framed dataframe
+b = a.info()
+print(b)
+b1= a.describe()
+print(b1)         
