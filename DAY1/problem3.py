@@ -11,4 +11,13 @@ print(a)
 b = a.info()
 print(b)
 b1= a.describe()
-print(b1)         
+print(b1)     
+
+# now we can store the data and frame that data by using python library
+
+df1 = [['Ajay',45,"good"],
+       ['Mohit',65,"bad"],
+       ['Manjeet',23,"good"]]
+b = pd.DataFrame(df1)
+print(b)
+#
