@@ -30,3 +30,7 @@ df2 = [['Ajay',45,"good"],
 column_names = ["Names","Age","Quality"]
 b1 = pd.DataFrame(df2,columns=column_names)
 print(b1)
+b2=b1.describe()
+print(b2)# using properties
+b2 = b1.info()
+print(b2)
