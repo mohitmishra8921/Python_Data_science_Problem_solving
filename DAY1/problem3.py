@@ -34,3 +34,6 @@ b2=b1.describe()
 print(b2)# using properties
 b2 = b1.info()
 print(b2)
+#here we can do one thing to get rows or columns in this framed data
+b3 = b1.columns
+print(b3)
