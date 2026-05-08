@@ -15,3 +15,9 @@ arr1 = np.array([[10,20,30],
                [40,50,60]])
 c1 =arr1[1,2]#here first number use for second row because indexing starts from 0 and 2 for third columns
 print("Second row third column element is :\n",c1)
+
+d1 = arr[::-1]# use for reversing the array
+print(d1)
+
+arr[2] = 100 #This make sure list are immutable and it returns view here bcz it changes the original array
+print(arr)
