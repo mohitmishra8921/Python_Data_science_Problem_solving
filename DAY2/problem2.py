@@ -19,5 +19,5 @@ print("Second row third column element is :\n",c1)
 d1 = arr[::-1]# use for reversing the array
 print(d1)
 
-arr[2] = 100 #This make sure list are immutable and it returns view here bcz it changes the original array
+arr[2] = 100 #This make sure list are mutable and it returns view here bcz it changes the original array
 print(arr)
