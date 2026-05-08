@@ -6,3 +6,12 @@ print(a)
 # we can also access elements from the array in the form of slicing to access the array 
 a1 = arr[0:5]
 print(a1)
+
+b1= arr[0:4:2] #Another way of accesssing elements in a array
+print(b1)
+
+#This properties looks more comfortable while using them on 2D or 3D arrays to acces elements of rows and columns
+arr1 = np.array([[10,20,30],
+               [40,50,60]])
+c1 =arr1[1,2]#here first number use for second row because indexing starts from 0 and 2 for third columns
+print("Second row third column element is :\n",c1)
