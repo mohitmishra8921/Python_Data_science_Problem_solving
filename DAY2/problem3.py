@@ -10,4 +10,9 @@ marks = np.array([[78,85,80],
 columns = ["Maths","Science","English"]
 print(marks.shape)
 df = pd.DataFrame(marks,columns=columns,index=["A","B","C","D","E"])
-print(df)
+# print(df)
+total = df.sum(axis=1)
+print(total)
+
+average = df.mean(axis=1)
+print(average)
