@@ -10,9 +10,14 @@ marks = np.array([[78,85,80],
 columns = ["Maths","Science","English"]
 print(marks.shape)
 df = pd.DataFrame(marks,columns=columns,index=["A","B","C","D","E"])
-# print(df)
+
 total = df.sum(axis=1)
 print(total)
 
 average = df.mean(axis=1)
 print(average)
+print(df)
+#HIGHEST  LOWEST  MARKS IN DATA FOR EACH SUBJECT
+print(df.max())#maximum marks in each subject
+print(df.min())#minimum marks in each subject
+
