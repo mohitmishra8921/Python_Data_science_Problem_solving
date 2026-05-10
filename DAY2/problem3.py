@@ -18,6 +18,6 @@ average = df.mean(axis=1)
 print(average)
 print(df)
 #HIGHEST  LOWEST  MARKS IN DATA FOR EACH SUBJECT
-print(df.max())#maximum marks in each subject
+print(df.max(axis=0))#maximum marks in each subject
 print(df.min())#minimum marks in each subject
 
