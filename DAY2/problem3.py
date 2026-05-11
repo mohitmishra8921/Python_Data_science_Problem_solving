@@ -21,3 +21,4 @@ print(df)
 print(df.max(axis=0))#maximum marks in each subject
 print(df.min(axis=0))#minimum marks in each subject
 
+print(df[0:3])#today i got first three elements basically im performing slicing today on my previous dataframe
