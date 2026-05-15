@@ -10,3 +10,5 @@ print("Minimum temp of week",c)
 #my todays work on this problem of temperature of the whole week is to vectorized it by add two degrees in each temp 
 d = array + 2 # here in numpy we simply add 2 to each day temp without creatong another aaray without using loops due to which it becomes memory costly
 print(d)
+e = array.reshape(7,1)
+print(e)
