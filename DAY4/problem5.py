@@ -12,8 +12,10 @@ print("The marks of student which have failed the exams are :\n",marks[mask])
 
 #TASK3
 #Now we add grace marks in the array of using vectorisation in array
-marks = marks + 5
-print(marks)
+marks1 = marks + 5
+print(marks1)
 
 #TASK4
+marks[marks<40]=-1 #last task of day replace -1 to show whiuch of the students are failed in the exam
+print(marks)
 
