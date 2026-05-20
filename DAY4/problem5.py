@@ -10,4 +10,10 @@ mask = marks<40
 print("The marks of student which have failed the exams are :\n",marks[mask])
 #Marks of students which failed in the exam
 
+#TASK3
+#Now we add grace marks in the array of using vectorisation in array
+marks = marks + 5
+print(marks)
+
+#TASK4
 
