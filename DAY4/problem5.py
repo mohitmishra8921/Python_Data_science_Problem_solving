@@ -19,3 +19,15 @@ print(marks1)
 marks[marks<40]=-1 #last task of day replace -1 to show whiuch of the students are failed in the exam
 print(marks)
 
+
+#Now its time to do bonus challenge of day4
+
+#1) First i will find the average marks of total marks of student
+#2) Second i will find the highest marks in the marks of students
+#3) Third i will find the lowest marks in the array of marks of student
+
+a = marks.mean()
+print("Average marks of the students are:\n",a)
+
+
+
