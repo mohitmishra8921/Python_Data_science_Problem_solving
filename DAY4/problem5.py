@@ -29,5 +29,7 @@ print(marks)
 a = marks.mean()
 print("Average marks of the students are:\n",a)
 
+b = marks.max()
+print("Highest marks of the students are:\n",)
 
 
