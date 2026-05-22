@@ -34,5 +34,7 @@ print("Highest marks of the students are:\n",highest_marks)
 
 lowest_marks = marks.min()
 print("Lowest marks of the students are:\n",lowest_marks)
+argmax_marks = marks.argmax()
+print("Median of the marks",argmax_marks)
 
 
