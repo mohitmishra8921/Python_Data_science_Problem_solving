@@ -6,3 +6,18 @@ for i in list1:
     if i in list2:
         common_list.append(i)
 print(common_list)
+
+#Problem 2 of dayt 5
+string1 = "numpy"
+
+freq = {}
+
+for ch in string1:
+
+    if ch in freq:
+        freq[ch] += 1
+
+    else:
+        freq[ch] = 1
+
+print(freq)
