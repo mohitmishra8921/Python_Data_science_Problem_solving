@@ -12,3 +12,20 @@ b1 = arr.min()
 print(f"Minimum integer among of all random integers:\n{b1}")
 c1 = arr.mean()
 print(f"Average of random integers:\n{c1}")
+
+# Task 2 — Filtering
+
+# Using the same random array find
+
+# values greater than 50
+# even numbers
+# odd numbers
+
+a = arr[arr > 50]
+print(f"Greater than 50:\n",a)
+
+even = arr[arr % 2 == 0]
+print(f"Even numbers in the random array:\n",even)
+
+odd = arr[arr % 2 != 0]
+print(f"Odd numbers in the random array:\n",odd)
