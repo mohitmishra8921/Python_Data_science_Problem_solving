@@ -31,7 +31,7 @@ odd = arr[arr % 2 != 0]
 print(f"Odd numbers in the random array:\n",odd)
 
 
-# This is good but when we have to perform multiple conditions at single time at once than we perform multiconditioning
+# Task3 This is good but when we have to perform multiple conditions at single time at once than we perform multiconditioning
 random_arr = np.random.randint(50,150,10)
 multi_conditioning = arr[(arr>50)&(arr<120)&(arr%5==0)] 
 print(f"Numbers divisible by 5 between 50 and 120:\n{multi_conditioning}")
