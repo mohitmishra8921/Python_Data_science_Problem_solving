@@ -48,3 +48,14 @@ for i in arr :
     if arr.count(i)!=1:
         print(f"FIRST REPEATING ELEMENT OF THE LIST :\n{i}")
         break# this code gives that first element of the list whose frequency greater than 1
+
+#Question 6
+arr = [10,5,3,4,3,5,6]
+
+seen = set()
+
+for i in arr: #this code gives us the first repeating elemnt of the list 
+    if i in seen:
+        print(i)
+        break
+    seen.add(i) 
