@@ -12,7 +12,3 @@ for i in b[::-1]:
 print("First three highest marks:\n",c)
 
 
-≥ 85	A
-70–84	B
-50–69	C
-< 50
