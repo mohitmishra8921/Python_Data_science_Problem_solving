@@ -4,6 +4,7 @@ for i in nums :
     num.append(i*2)
 print(num)
 
+
 words = ["apple", "banana", "apple", "orange", "banana", "apple"]
 
 dicti = {}
