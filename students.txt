@@ -1,0 +1,4 @@
+Amit Kumar, 20, Delhi, amit@example.com
+Sneha Gupta, 21, Pune, sneha@example.com
+Rohan Singh, 22, Bangalore, rohan@example.com
+Anjali Mehta, 20, Chennai, anjali@example.com
